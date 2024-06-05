@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #02021e;
+    color: black;
 }
 
 .container {
@@ -40,15 +41,14 @@ li {
     cursor: pointer;
 }
 
-nav {
-    background-color: #0f032ea6;
-}
+
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color: #040459;
 }
 
 nav ul li {
@@ -57,7 +57,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: rgb(60, 1, 1);
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
@@ -65,6 +65,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #555;
+    
 }
 
 @media only screen and (max-width: 208px) {
