@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción a GitHub</title>
     <link rel="stylesheet" href="diseño.css">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <h1>GitHub + GIT 
+            <h1>GitHub + GIT
             </h1>
             <nav>
                 <div class="menu-icon" onclick="toggleMenu()">
@@ -26,98 +28,171 @@
     </header>
     <section class="container">
         <h2 id="que-es-github">¿Qué es GitHub?</h2>
-        <p>GitHub es una plataforma de desarrollo colaborativo de software que utiliza el sistema de control de versiones Git. A diferencia de Git, que es una herramienta de línea de comandos, GitHub proporciona una interfaz web intuitiva que facilita la colaboración en proyectos de software.</p>
-        <p>Además de alojar proyectos utilizando Git, GitHub ofrece una variedad de características y herramientas adicionales diseñadas para mejorar la colaboración, la gestión de proyectos y la automatización del flujo de trabajo de desarrollo.</p>
+        <p>GitHub es una plataforma de desarrollo colaborativo de software que utiliza el sistema de control de
+            versiones Git. A diferencia de Git, que es una herramienta de línea de comandos, GitHub proporciona una
+            interfaz web intuitiva que facilita la colaboración en proyectos de software.</p>
+        <p>Además de alojar proyectos utilizando Git, GitHub ofrece una variedad de características y herramientas
+            adicionales diseñadas para mejorar la colaboración, la gestión de proyectos y la automatización del flujo de
+            trabajo de desarrollo.</p>
         <center>
             <img src="github.png" alt="errores" class="img-size">
         </center>
-        
+
         <h2 id="caracteristicas">Características Principales</h2>
         <ul>
-            <li><strong>Repositorios:</strong> GitHub alberga repositorios que contienen todo el código fuente, archivos y datos relacionados con un proyecto de software. Estos repositorios pueden ser públicos, accesibles para todos, o privados, accesibles solo para colaboradores autorizados.</li>
+            <li><strong>Repositorios:</strong> GitHub alberga repositorios que contienen todo el código fuente, archivos
+                y datos relacionados con un proyecto de software. Estos repositorios pueden ser públicos, accesibles
+                para todos, o privados, accesibles solo para colaboradores autorizados.</li>
             <center>
                 <img src="repo.png" alt="errores" class="img-size">
             </center>
-            <li><strong>Ramas:</strong> Las ramas permiten trabajar en diferentes versiones del proyecto simultáneamente. Esto facilita la colaboración entre equipos y el desarrollo de nuevas funciones sin afectar la rama principal (generalmente llamada 'master' o 'main') del proyecto.</li>
+            <li><strong>Ramas:</strong> Las ramas permiten trabajar en diferentes versiones del proyecto
+                simultáneamente. Esto facilita la colaboración entre equipos y el desarrollo de nuevas funciones sin
+                afectar la rama principal (generalmente llamada 'master' o 'main') del proyecto.</li>
             <center>
                 <img src="branch.png" alt="errores" class="img-size">
             </center>
-            <li><strong>Pull Requests:</strong> Las solicitudes de extracción son propuestas para aplicar cambios en un repositorio. Permiten a los colaboradores revisar los cambios propuestos, discutirlos y fusionarlos con la rama principal del proyecto si son aceptados.</li>
+            <li><strong>Pull Requests:</strong> Las solicitudes de extracción son propuestas para aplicar cambios en un
+                repositorio. Permiten a los colaboradores revisar los cambios propuestos, discutirlos y fusionarlos con
+                la rama principal del proyecto si son aceptados.</li>
             <center>
                 <img src="pull.png" alt="errores" class="img-size">
             </center>
-            <li><strong>Issues:</strong> Los issues son herramientas para gestionar tareas, mejoras, errores, etc. Los usuarios pueden crear problemas para informar sobre problemas encontrados en el proyecto o para sugerir nuevas funciones. Los issues pueden asignarse, etiquetarse y clasificarse para facilitar su seguimiento y resolución.</li>
-            <li><strong>GitHub Actions:</strong> GitHub Actions permite automatizar flujos de trabajo de desarrollo de software directamente en el repositorio. Puedes crear acciones personalizadas para construir, probar y desplegar tu código automáticamente en respuesta a eventos específicos, como la solicitud de extracción o la confirmación de cambios.</li>
+            <li><strong>Issues:</strong> Los issues son herramientas para gestionar tareas, mejoras, errores, etc. Los
+                usuarios pueden crear problemas para informar sobre problemas encontrados en el proyecto o para sugerir
+                nuevas funciones. Los issues pueden asignarse, etiquetarse y clasificarse para facilitar su seguimiento
+                y resolución.</li>
+            <li><strong>GitHub Actions:</strong> GitHub Actions permite automatizar flujos de trabajo de desarrollo de
+                software directamente en el repositorio. Puedes crear acciones personalizadas para construir, probar y
+                desplegar tu código automáticamente en respuesta a eventos específicos, como la solicitud de extracción
+                o la confirmación de cambios.</li>
             <center>
                 <img src="actionss.png" alt="errores" class="img-size">
             </center>
         </ul>
-    
+
         <h2 id="beneficios">Beneficios</h2>
         <ul>
-            <li><strong>Colaboración:</strong> GitHub facilita el trabajo en equipo al proporcionar herramientas para la colaboración y la comunicación efectiva entre desarrolladores, equipos y comunidades de código abierto. Los colaboradores pueden discutir cambios, revisar código y contribuir al proyecto de manera transparente.</li>
+            <li><strong>Colaboración:</strong> GitHub facilita el trabajo en equipo al proporcionar herramientas para la
+                colaboración y la comunicación efectiva entre desarrolladores, equipos y comunidades de código abierto.
+                Los colaboradores pueden discutir cambios, revisar código y contribuir al proyecto de manera
+                transparente.</li>
             <center>
                 <img src="collabores.png" alt="errores" class="img-size">
             </center>
-            <li><strong>Control de Versiones:</strong> Git y GitHub permiten llevar un historial detallado de los cambios realizados en el código. Esto facilita la identificación de quién hizo un cambio, cuándo y por qué. Además, ayuda a revertir cambios no deseados y a mantener una trazabilidad clara del desarrollo del proyecto.</li>
+            <li><strong>Control de Versiones:</strong> Git y GitHub permiten llevar un historial detallado de los
+                cambios realizados en el código. Esto facilita la identificación de quién hizo un cambio, cuándo y por
+                qué. Además, ayuda a revertir cambios no deseados y a mantener una trazabilidad clara del desarrollo del
+                proyecto.</li>
             <center>
                 <img src="Versiones.png" alt="errores" class="img-size">
             </center>
-            <li><strong>Integración Continua:</strong> GitHub Actions automatiza pruebas y despliegues para garantizar que el código se pruebe y despliegue de manera confiable y consistente. Esto ayuda a detectar errores temprano en el proceso de desarrollo y a acelerar la entrega de software de alta calidad.</li>
-            <li><strong>Seguridad:</strong> GitHub provee herramientas para la revisión de código y manejo de vulnerabilidades. Ofrece funcionalidades como la revisión de código, análisis de seguridad de dependencias y alertas de seguridad para ayudar a mantener la seguridad del código y proteger contra posibles vulnerabilidades.</li>
+            <li><strong>Integración Continua:</strong> GitHub Actions automatiza pruebas y despliegues para garantizar
+                que el código se pruebe y despliegue de manera confiable y consistente. Esto ayuda a detectar errores
+                temprano en el proceso de desarrollo y a acelerar la entrega de software de alta calidad.</li>
+            <li><strong>Seguridad:</strong> GitHub provee herramientas para la revisión de código y manejo de
+                vulnerabilidades. Ofrece funcionalidades como la revisión de código, análisis de seguridad de
+                dependencias y alertas de seguridad para ayudar a mantener la seguridad del código y proteger contra
+                posibles vulnerabilidades.</li>
             <center>
                 <img src="seguridad.png" alt="errores" class="img-size">
             </center>
-            <li><strong>Comunidad:</strong> GitHub es una plataforma que fomenta la participación y el aprendizaje colaborativo. Permite a los desarrolladores conectar con otros profesionales de la industria, contribuir a proyectos de código abierto y aprender de la experiencia y conocimientos de la comunidad global de desarrolladores.</li>
+            <li><strong>Comunidad:</strong> GitHub es una plataforma que fomenta la participación y el aprendizaje
+                colaborativo. Permite a los desarrolladores conectar con otros profesionales de la industria, contribuir
+                a proyectos de código abierto y aprender de la experiencia y conocimientos de la comunidad global de
+                desarrolladores.</li>
             <center>
                 <img src="comuna.png" alt="errores" class="img-size">
             </center>
         </ul>
-    
-        <h2>Información sobre Git</h2>
-        <p>Git es un sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de software. Fue creado por Linus Torvalds en 2005 para el desarrollo del kernel de Linux y desde entonces se ha convertido en la herramienta estándar para el control de versiones en la industria del software.</p>
-        <p>Git permite a los desarrolladores realizar un seguimiento de los cambios en el código fuente a lo largo del tiempo, coordinar el trabajo entre múltiples personas, revertir cambios no deseados y gestionar ramas de desarrollo de manera eficiente.</p>
-        <h3>Características principales de Git:</h3>
-        <center>
-            <img src="GT+GH.png" alt="errores" class="img-size">
-        </center>
-        <ul>
-            <li>Seguimiento de cambios en el código fuente.</li>
-            <li>Coordinación del trabajo entre múltiples personas.</li>
-            <li>Revertir cambios no deseados.</li>
-            <li>Gestión eficiente de ramas de desarrollo.</li>
-        </ul>
-        <h3>Recursos adicionales sobre Git:</h3>
-        <ul>
-            <li><a href="https://git-scm.com/doc" target="_blank">Documentación oficial de Git</a></li>
-            <li><a href="https://www.atlassian.com/git" target="_blank">Guía de Atlassian sobre Git</a></li>
-            <li><a href="https://ohshitgit.com/" target="_blank">Oh Shit, Git!?!</a> - Una guía para resolver problemas comunes en Git.</li>
-            <li><a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a> - Un tutorial interactivo para aprender sobre ramas en Git.</li>
-            <li><a href="https://www.git-tower.com/learn/git/ebook/en/command-line/introduction/" target="_blank">The Tower Git eBook</a> - Un libro electrónico gratuito que cubre conceptos básicos y avanzados de Git.</li>
-        </ul>
-        <h3>Videos sobre Git:</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=HiXLkL42tMU" target="_blank">Introducción a Git - Platzi</a></li>
-            <li><a href="https://www.youtube.com/watch?v=R8OAwrcMlRw" target="_blank">Tutorial de Git para principiantes - Fazt</a></li>
-            <li><a href="https://www.youtube.com/watch?v=6HsZMl-qV5k" target="_blank">Flujo de trabajo con Git - Academind</a></li>
-            <li><a href="https://www.youtube.com/watch?v=JtIX3HJKwfo" target="_blank">Resolución de conflictos en Git - Coding Train</a></li>
-        </ul>
-    </section>
-    <footer>
-        <ul class="colaboradores">
-            <li class="capitanes">Samantha Canales Ortega (Capitana)</li>
-            <li class="capitanes">Fryda Silvestre Perez (Capitana)</li>
-            <li>Alejandro Rodríguez Chumacero (Diseñador)</li>
-            <li>Kevin Ricardo Sánchez Hernández (Programador)</li>
-            <li>Alberto Iván Ballesteros Hernández (Programador)</li>
-        </ul>
-    </footer>
 
-    <script>
-        function toggleMenu() {
-            var menu = document.querySelector('nav ul');
-            menu.classList.toggle('show');
-        }
-    </script>
+        <h2>Información detallada sobre Git</h2>
+        <center>
+            <img src="git.png" alt="errores" class="img-size">
+        </center>
+        <p>Git es un sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de software. Su
+            popularidad se debe a su eficiencia, flexibilidad y robustez. A diferencia de otros sistemas de control de
+            versiones centralizados, Git no depende de un servidor central, lo que lo hace ideal para proyectos
+            distribuidos y colaborativos.</p>
+
+        <p>Una de las características más destacadas de Git es su capacidad para realizar un seguimiento preciso de los
+            cambios en el código fuente a lo largo del tiempo. Cada modificación realizada en un proyecto Git se
+            registra como un "commit", lo que permite a los desarrolladores revisar el historial de cambios, comparar
+            versiones anteriores y entender cómo ha evolucionado el código.</p>
+
+        <p>Otra ventaja clave de Git es su capacidad para facilitar la colaboración entre múltiples personas en un
+            proyecto. Mediante el uso de repositorios remotos, los desarrolladores pueden compartir su trabajo con
+            otros, sincronizar cambios y trabajar de forma concurrente en diferentes aspectos del proyecto.</p>
+
+        <p>Git también ofrece una amplia gama de herramientas para la gestión de ramas de desarrollo. Las ramas permiten
+            a los equipos trabajar en nuevas características o correcciones de errores de forma independiente, sin
+            interferir en el trabajo principal del proyecto. Esto facilita la experimentación y la iteración en el
+            desarrollo de software.</p>
+
+        <p>Además, Git proporciona mecanismos robustos para revertir cambios no deseados y resolver conflictos en el
+            código. Los desarrolladores pueden deshacer commits, restaurar archivos a versiones anteriores y fusionar
+            ramas de forma segura gracias a las herramientas de Git para la resolución de conflictos.</p>
+
+        <h3>Beneficios de utilizar Git:</h3>
+        <ul>
+            <li>Historial completo de cambios en el código fuente.</li>
+            <center>
+                <img src="hist.png" alt="errores" class="img-size">
+            </center>
+            <li>Facilita la colaboración entre equipos distribuidos.</li>
+            <center>
+                <img src="collabores.png" alt="errores" class="img-size">
+            </center>
+            <li>Gestión eficiente de ramas de desarrollo.</li>
+            <center>
+                <img src="gest.png" alt="errores" class="img-size">
+            </center>
+            <li>Revertir cambios y resolver conflictos de manera efectiva.</li>
+            <center>
+                <img src="revert.png" alt="errores" class="img-size">
+            </center>
+             <li>Integración con una amplia variedad de herramientas y servicios.</li>
+             <center>
+                <img src="HS.png" alt="errores" class="img-size">
+            </center>       
+            </ul>
+
+        <h3>Plataformas y herramientas asociadas con Git:</h3>
+        <ul>
+            <li><a href="https://github.com/" target="_blank">GitHub</a>: Una plataforma de alojamiento de código que
+                utiliza Git para el control de versiones. Es ampliamente utilizada para proyectos de código abierto y
+                colaboración en equipo.</li>
+            <li><a href="https://about.gitlab.com/" target="_blank">GitLab</a>: Otra plataforma de alojamiento de código
+                que ofrece características similares a GitHub, incluyendo control de versiones con Git y herramientas
+                para la gestión de proyectos.</li>
+            <li><a href="https://bitbucket.org/" target="_blank">Bitbucket</a>: Una plataforma de alojamiento de código
+                propiedad de Atlassian que admite tanto Git como Mercurial para el control de versiones.</li>
+            <li><a href="https://git-scm.com/" target="_blank">Git</a>: El sitio web oficial de Git, que proporciona
+                documentación detallada, tutoriales y descargas para todas las plataformas compatibles.</li>
+        </ul>
+
+        <p>En resumen, Git es una herramienta poderosa y versátil que ha revolucionado la forma en que se desarrolla y
+            colabora en el software. Su popularidad sigue creciendo en la industria del desarrollo de software debido a
+            sus numerosos beneficios y su amplio ecosistema de herramientas y servicios asociados.</p>
+            <center>
+                <img src="HSgit.png" alt="errores" class="img-size">
+            </center>
+        <footer>
+            <ul class="colaboradores">
+                <li class="capitanes">Samantha Canales Ortega</li>
+                <li class="capitanes">Fryda Silvestre Perez</li>
+                <li>Alejandro Rodríguez Chumacero </li>
+                <li>Kevin Ricardo Sánchez Hernández </li>
+                <li>Alberto Iván Ballesteros Hernández </li>
+            </ul>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                var menu = document.querySelector('nav ul');
+                menu.classList.toggle('show');
+            }
+        </script>
 </body>
+
 </html>
