@@ -4,12 +4,13 @@ body {
     padding: 0;
     background-color: #f7f7f7;
     color: #333;
+    font-size: 1em;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 1.25em 0;
     text-align: center;
 }
 
@@ -19,31 +20,30 @@ header {
 }
 
 h1, h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 p {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
     line-height: 1.5;
 }
 
 ul {
-    margin-bottom: 20px;
-    padding-left: 20px;
+    margin-bottom: 1.25em;
+    padding-left: 1.25em;
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 1.25em 0;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    clear: both;
 }
 
 .menu-icon {
@@ -70,7 +70,7 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875em 1em;
     text-decoration: none;
 }
 
@@ -99,13 +99,13 @@ nav ul li a:hover {
     }
 
     nav ul li {
-        margin-bottom: 10px;
+        margin-bottom: 0.625em;
     }
 }
 
 .img-size {
-    width: 250px;
-    height: 250px;
+    width: 15.625em;
+    height: 15.625em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -117,13 +117,13 @@ nav ul li a:hover {
 
 h2 {
     color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5em;
+    margin-bottom: 0.625em;
 }
 
 p {
     color: #666;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1.5;
 }
 
@@ -136,28 +136,19 @@ a:hover {
     text-decoration: underline;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
 .colaboradores {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .colaboradores li {
-    margin: 0 10px;
-    font-size: 14px;
+    margin: 0 0.625em;
+    font-size: 0.875em;
+    margin-bottom: 0.625em;
 }
 
 .capitanes {
